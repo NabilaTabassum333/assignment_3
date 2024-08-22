@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <!-- font icon -->
+    <script src="https://kit.fontawesome.com/7c9b0e8385.js" crossorigin="anonymous"></script>
 </head>
-<body>
+
+<body class="manrope">
+    <header class="bg-gray-50">
+        <nav class="max-w-xl lg:max-w-7xl  mx-auto pt-6 lg:pt-12">
+            <div class="flex justify-between items-center">
+                <div class="flex space-x-2 items-center">
+                    <div class="bg-[#ABEF5F] h-8 w-8 rounded-full flex items-center justify-center font-bold">
+                        <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                    </div>
+                    <h1 class="text-2xl lg:text-3xl text-[#212121] font-extrabold">Rinterio</h1>
+                </div>
+                
+                <div class="space-x-7 invisible md:visible">
+                    <a href="" class="text-[#737373] hover:font-bold">Home</a>
+                    <a href="" class="text-[#737373] hover:font-bold">Services</a>
+                    <a href="" class="text-[#737373] hover:font-bold">Portfolio</a>
+                    <a href="" class="text-[#737373] hover:font-bold">Blogs</a>
+                    <a href="" class="text-[#737373] hover:font-bold">Contact Us</a>
+                </div>
+                <div class="flex items-center space-x-2 invisible md:visible">
+                    <div class="bg-white h-10 w-10 border border-gray-200 rounded-full flex justify-center items-center text-gray-500">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="bg-white h-10 w-10 border border-gray-200 rounded-full flex justify-center items-center text-gray-500">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div>
+                        <button class="bg-[#ABEF5F] rounded-full p-2 font-bold text-black flex items-center ">
+                            Book Consult
+                            <div class="rounded-full bg-black h-8 w-8 flex justify-center items-center ml-1">
+                                <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                 <!-- menubar -->
+                 <div class="bg-white h-10 w-10 rounded-full flex items-center justify-center  lg:hidden">
+                    <i class="fa-solid fa-bars text-[#737373]"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main></main>
+    <footer></footer>
     
 </body>
+
 </html>
